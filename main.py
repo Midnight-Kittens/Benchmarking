@@ -76,6 +76,11 @@ def fibonacci4(n):
             b = c
         return b
 
+    
+ """
+ Final sequence using memoization. This is the big one
+ """
+
 fib_cache = {}
 def fibonacci5(n):
     if n in fib_cache:
